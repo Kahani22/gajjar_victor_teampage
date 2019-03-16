@@ -1,12 +1,20 @@
-//create a pickel jar, label it as firstName, put a string in it
-//var firstName = "Marco";
+(() => {
 
-//alert("Hello " + firstName);
+	console.log("Javascript is linked up");
 
-//modern js
+	let buttonRayn	= document.querySelector('.buttonRayn');
+		lightboxRayn	= document.querySelector('.contentRayn');
+		closeRayn	= document.querySelector('#closeRayn');
 
-//alert(`Hello ${firstName} !!!`);
+		function openLightboxRayn() {
+			lightboxRayn.classList.add('Lightbox1-on');
+		}
 
-//console.log(firstName);
+		function closeLightboxRayn() {
+			lightboxRayn.classList.remove('Lightbox1-on');
+		}
 
-console.log("Javascript is linked up");
+		buttonRayn.addEventListener('click', openLightboxRayn);
+		closeRayn.addEventListener('click', closeLightboxRayn);
+
+})();

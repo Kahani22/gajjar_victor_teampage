@@ -17,13 +17,15 @@ header
 {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 header h2
 {
 	font-family: 'Lilita One', Arial, sans-serif;
 	font-size: 35px;
+	transition: 2s;
+	text-shadow: 0px 5px #cdcdcd;
 }
 
 header p
@@ -46,9 +48,150 @@ header p span
 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 .teamBox img
 {
 	width: 600px;
+	position: absolute;
 }
+
+#imgOnHover
+{
+	position: relative;
+}
+
+.buttonRayn
+{
+	transition: 1.5s ease;
+}
+
+.buttonRayn:hover
+{
+	transform: scale(1.05);
+	filter: brightness(130%);
+}
+
+.buttonKahani
+{
+	transition: 1.5s ease;
+}
+
+.buttonKahani:hover
+{
+	transform: scale(1.05);
+	filter: brightness(130%);
+}
+
+.contentBox
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-top: -900px;
+}
+
+.contentBox h2
+{
+	font-family: 'Lilita One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	background: #cdcdcd;
+	margin-bottom: 20px;
+	width: 560px;
+	transition: 3s ease;
+}
+
+.contentBox h2:hover
+{
+	font-family: 'Lilita One', sans-serif;
+	font-size: 30px;
+	text-shadow: 5px 5px #888;
+	padding: 20px;
+	background: #cdcdcd;
+	width: 220px;
+}
+
+.contentBox p
+{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 18px;
+	padding: 30px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-indent: 30px;
+}
+
+#raynQuote
+{
+	text-align: center;
+}
+
+.contentRayn
+{
+	height: 900px;
+	width: 600px;
+	background-color: #efefef;
+	display: none;
+}
+
+#imagesRayn
+{
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+#imagesRayn img
+{
+	transition: 2s;
+	filter: grayscale(100%);
+}
+
+#imagesRayn img:hover
+{
+	transform: scale(0.95);
+}
+
+#closeRayn
+{
+	padding: 5px;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 18px;
+	transition: .5s;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
+#closeRayn:hover
+{
+	opacity: .5;
+}
+
+.Lightbox1-on
+{
+	height: 900px;
+	width: 600px;
+	background-color: rgba(240, 240, 240, .8);
+	display: block;
+	-webkit-animation-name: lightboxSlide;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes lightboxSlide
+{
+	0% {
+		opacity: 0;
+		background-color: rgba(240, 240, 240, 0)
+	}
+	100% {
+		opacity: 1;
+		background-color: rgba(240, 240, 240, .8)
+	}
+}
+
+
