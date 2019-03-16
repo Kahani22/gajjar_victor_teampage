@@ -128,7 +128,19 @@ header p span
 	text-align: center;
 }
 
-.contentRayn
+#kahaniQuote
+{
+	text-align: center;
+}
+.contentRayn 
+{
+	height: 900px;
+	width: 600px;
+	background-color: #efefef;
+	display: none;
+}
+
+.contentKahani
 {
 	height: 900px;
 	width: 600px;
@@ -156,6 +168,27 @@ header p span
 	transform: scale(0.95);
 }
 
+#imagesKahani
+{
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+#imagesKahani img
+{
+	transition: 2s;
+	filter: grayscale(100%);
+}
+
+#imagesKahani img:hover
+{
+	transform: scale(0.95);
+}
+
+
 #closeRayn
 {
 	padding: 5px;
@@ -167,6 +200,21 @@ header p span
 }
 
 #closeRayn:hover
+{
+	opacity: .5;
+}
+
+#closeKahani
+{
+	padding: 5px;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 18px;
+	transition: .5s;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
+#closeKahani:hover
 {
 	opacity: .5;
 }
@@ -183,6 +231,28 @@ header p span
 }
 
 @-webkit-keyframes lightboxSlide
+{
+	0% {
+		opacity: 0;
+		background-color: rgba(240, 240, 240, 0)
+	}
+	100% {
+		opacity: 1;
+		background-color: rgba(240, 240, 240, .8)
+	}
+
+.Lightbox2-on
+{
+	height: 900px;
+	width: 600px;
+	background-color: rgba(240, 240, 240, .8);
+	display: block;
+	-webkit-animation-name: lightbox2Slide;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes lightbox2Slide
 {
 	0% {
 		opacity: 0;
