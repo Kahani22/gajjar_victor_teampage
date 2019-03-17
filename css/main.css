@@ -234,7 +234,7 @@ header p span
 	background-color: rgba(240, 240, 240);
 	display: block;
 	-webkit-animation-name: lightboxSlide;
-	-webkit-animation-duration: 3s;
+	-webkit-animation-duration: 1.5s;
 	-webkit-animation-iteration-count: 1;
 }
 
@@ -242,34 +242,7 @@ header p span
 {
 	0% {
 		opacity: 0;
-		background-color: rgba(240, 240, 240)
 	}
 	100% {
 		opacity: 1;
-		background-color: rgba(240, 240, 240)
 	}
-
-/*.Lightbox2-on
-{
-	height: 900px;
-	width: 600px;
-	background-color: rgba(240, 240, 240);
-	display: block;
-	-webkit-animation-name: lightboxSlideTwo;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-iteration-count: 1;
-}
-
-@-webkit-keyframes lightbox2SlideTwo
-{
-	0% {
-		opacity: 0;
-		background-color: rgba(240, 240, 240)
-	}
-	100% {
-		opacity: 1;
-		background-color: rgba(240, 240, 240)
-	}
-}
-*/
-
