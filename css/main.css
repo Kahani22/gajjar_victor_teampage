@@ -90,6 +90,7 @@ header p span
 	flex-direction: row;
 	position: relative;
 	margin-top: -900px;
+	width: 1200px;
 }
 
 .contentBox h2
@@ -110,7 +111,7 @@ header p span
 	text-shadow: 5px 5px #888;
 	padding: 20px;
 	background: #cdcdcd;
-	width: 220px;
+	width: 240px;
 }
 
 .contentBox p
@@ -131,7 +132,9 @@ header p span
 #kahaniQuote
 {
 	text-align: center;
+	margin-top: 20px;
 }
+
 .contentRayn 
 {
 	height: 900px;
@@ -145,6 +148,7 @@ header p span
 	height: 900px;
 	width: 600px;
 	background-color: #efefef;
+	margin-left: 600px;
 	display: none;
 }
 
@@ -154,7 +158,7 @@ header p span
 	flex-direction: row;
 	width: 600px;
 	justify-content: space-evenly;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #imagesRayn img
@@ -174,13 +178,16 @@ header p span
 	flex-direction: row;
 	width: 600px;
 	justify-content: space-evenly;
-	margin-top: 30px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
 #imagesKahani img
 {
 	transition: 2s;
 	filter: grayscale(100%);
+	width: 243px;
+	height: 280px;
 }
 
 #imagesKahani img:hover
@@ -197,6 +204,7 @@ header p span
 	transition: .5s;
 	margin-left: 500px;
 	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
 #closeRayn:hover
@@ -211,7 +219,7 @@ header p span
 	font-size: 18px;
 	transition: .5s;
 	margin-left: 500px;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 #closeKahani:hover
@@ -221,9 +229,9 @@ header p span
 
 .Lightbox1-on
 {
-	height: 900px;
+	height: 870px;
 	width: 600px;
-	background-color: rgba(240, 240, 240, .8);
+	background-color: rgba(240, 240, 240);
 	display: block;
 	-webkit-animation-name: lightboxSlide;
 	-webkit-animation-duration: 3s;
@@ -234,34 +242,34 @@ header p span
 {
 	0% {
 		opacity: 0;
-		background-color: rgba(240, 240, 240, 0)
+		background-color: rgba(240, 240, 240)
 	}
 	100% {
 		opacity: 1;
-		background-color: rgba(240, 240, 240, .8)
+		background-color: rgba(240, 240, 240)
 	}
 
-.Lightbox2-on
+/*.Lightbox2-on
 {
 	height: 900px;
 	width: 600px;
-	background-color: rgba(240, 240, 240, .8);
+	background-color: rgba(240, 240, 240);
 	display: block;
-	-webkit-animation-name: lightbox2Slide;
+	-webkit-animation-name: lightboxSlideTwo;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-iteration-count: 1;
 }
 
-@-webkit-keyframes lightbox2Slide
+@-webkit-keyframes lightbox2SlideTwo
 {
 	0% {
 		opacity: 0;
-		background-color: rgba(240, 240, 240, 0)
+		background-color: rgba(240, 240, 240)
 	}
 	100% {
 		opacity: 1;
-		background-color: rgba(240, 240, 240, .8)
+		background-color: rgba(240, 240, 240)
 	}
 }
-
+*/
 
