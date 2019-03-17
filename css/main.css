@@ -163,7 +163,7 @@ header p span
 
 #imagesRayn img
 {
-	transition: 2s;
+	transition: 5s;
 	filter: grayscale(100%);
 }
 
@@ -184,10 +184,10 @@ header p span
 
 #imagesKahani img
 {
-	transition: 2s;
+	transition: 5s;
 	filter: grayscale(100%);
 	width: 243px;
-	height: 280px;
+	height: 240px;
 }
 
 #imagesKahani img:hover
