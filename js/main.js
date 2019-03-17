@@ -13,18 +13,16 @@
 			lightboxRayn.classList.add('Lightbox1-on');
 		}
 
-		function openLightboxRayn() {
-			lightboxKahani.classList.add('Lightbox2-on');
+		function openLightboxKahani() {
+			lightboxKahani.classList.add('Lightbox1-on');
 		}
-
 
 		function closeLightboxRayn() {
 			lightboxRayn.classList.remove('Lightbox1-on');
 		}
-		function closeLightboxRayn() {
-			lightboxKahani.classList.remove('Lightbox2-on');
+		function closeLightboxKahani() {
+			lightboxKahani.classList.remove('Lightbox1-on');
 		}
-
 
 		buttonRayn.addEventListener('click', openLightboxRayn);
 		closeRayn.addEventListener('click', closeLightboxRayn);
